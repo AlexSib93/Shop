@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Интернет-магазин(Objects)</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.Интернет_магазин.ТоварНаСкладе">
+            <summary>
+            Товар на складе.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.ТоварНаСкладе.Количество">
+            <summary>
+            Количество.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.ТоварНаСкладе.Сумма">
+            <summary>
+            Сумма.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.ТоварНаСкладе.Товар">
+            <summary>
+            Товар на складе.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.ТоварНаСкладе.Склад">
+            <summary>
+            мастеровая ссылка на шапку IIS.Интернет_магазин.Склад.
+            </summary>
+        </member>
+        <member name="T:IIS.Интернет_магазин.ТоварНаСкладе.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.ТоварНаСкладе.Views.ТоварНаСкладеE">
+            <summary>
+            "ТоварНаСкладеE" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Интернет_магазин.DetailArrayOfТоварНаСкладе">
+            <summary>
+            Detail array of ТоварНаСкладе.
+            </summary>
+        </member>
+        <member name="M:IIS.Интернет_магазин.DetailArrayOfТоварНаСкладе.#ctor(IIS.Интернет_магазин.Склад)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type ТоварНаСкладе by index.
+            </summary>
+            <summary>
+            Adds object with type ТоварНаСкладе.
+            </summary>
+        </member>
+        <member name="T:IIS.Интернет_магазин.Склад">
+            <summary>
+            Склад.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Склад.ID">
+            <summary>
+            ID.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Склад.Адресс">
+            <summary>
+            Адресс.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Склад.ТоварНаСкладе">
+            <summary>
+            Склад.
+            </summary>
+        </member>
+        <member name="T:IIS.Интернет_магазин.Склад.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Склад.Views.СкладE">
+            <summary>
+            "СкладE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Склад.Views.СкладL">
+            <summary>
+            "СкладL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Интернет_магазин.Отчет">
+            <summary>
+            Отчет.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Отчет.Год">
+            <summary>
+            Год.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Отчет.Месяц">
+            <summary>
+            Месяц.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Отчет.ЗаписьВОтчете">
+            <summary>
+            Отчет.
+            </summary>
+        </member>
+        <member name="T:IIS.Интернет_магазин.Отчет.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Отчет.Views.ОтчетE">
+            <summary>
+            "ОтчетE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Отчет.Views.ОтчетL">
+            <summary>
+            "ОтчетL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Интернет_магазин.Товар">
+            <summary>
+            Товар.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Товар.ID">
+            <summary>
+            ID.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Товар.Наименование">
+            <summary>
+            Наименование.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Товар.Cтоимость">
+            <summary>
+            Cтоимость.
+            </summary>
+        </member>
+        <member name="T:IIS.Интернет_магазин.Товар.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Товар.Views.ТоварE">
+            <summary>
+            "ТоварE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.Товар.Views.ТоварL">
+            <summary>
+            "ТоварL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Интернет_магазин.ЗаписьВОтчете">
+            <summary>
+            Запись в отчете.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.ЗаписьВОтчете.Количество">
+            <summary>
+            Количество.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.ЗаписьВОтчете.Сумма">
+            <summary>
+            Сумма.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.ЗаписьВОтчете.Товар">
+            <summary>
+            Запись в отчете.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.ЗаписьВОтчете.Отчет">
+            <summary>
+            мастеровая ссылка на шапку IIS.Интернет_магазин.Отчет.
+            </summary>
+        </member>
+        <member name="T:IIS.Интернет_магазин.ЗаписьВОтчете.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Интернет_магазин.ЗаписьВОтчете.Views.ЗаписьВОтчетеE">
+            <summary>
+            "ЗаписьВОтчетеE" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Интернет_магазин.DetailArrayOfЗаписьВОтчете">
+            <summary>
+            Detail array of ЗаписьВОтчете.
+            </summary>
+        </member>
+        <member name="M:IIS.Интернет_магазин.DetailArrayOfЗаписьВОтчете.#ctor(IIS.Интернет_магазин.Отчет)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type ЗаписьВОтчете by index.
+            </summary>
+            <summary>
+            Adds object with type ЗаписьВОтчете.
+            </summary>
+        </member>
+    </members>
+</doc>
