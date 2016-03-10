@@ -302,6 +302,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Default\BaseStyles.min.css">
+      <DependentUpon>BaseStyles.css</DependentUpon>
+    </Content>
     <Content Include="Web.sitemap">
       <SubType>Designer</SubType>
     </Content>
@@ -895,6 +898,9 @@
     <Content Include="forms\Documents\Web.config" />
     <Content Include="forms\Products\Web.config">
       <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Themes\Default\BaseStyles.css.map">
+      <DependentUpon>BaseStyles.css</DependentUpon>
     </Content>
     <None Include="packages.config" />
     <Compile Include="forms\BaseEditForm.cs">
